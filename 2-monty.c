@@ -2,8 +2,8 @@
 
 /**
  * swap - swaps the top two elements of the stack
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: The Double linked list
+ * @line_number: The File line execution
  */
 void swap(stack_t **stack, unsigned int line_number)
 {
@@ -23,8 +23,8 @@ void swap(stack_t **stack, unsigned int line_number)
 
 /**
  * add - add the top two elements of the stack
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: The Double linked list
+ * @line_number: The File line execution
  */
 void add(stack_t **stack, unsigned int line_number)
 {

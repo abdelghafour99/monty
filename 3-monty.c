@@ -3,8 +3,8 @@
 /**
  * sub - substract the top two elements of the stack
  *	 from the second top element of the stack
- * @stack: Double linked list
- * @line_number: Line counter
+ * @stack: The Double linked list
+ * @line_number: The File Line exec
  */
 void sub(stack_t **stack, unsigned int line_number)
 {
@@ -22,8 +22,8 @@ void sub(stack_t **stack, unsigned int line_number)
 /**
  * divm - divide the top two elements of the stack
  *	 by the top element of the stack
- * @stack: Double linked list
- * @line_number: File line counter
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void divm(stack_t **stack, unsigned int line_number)
 {
@@ -47,8 +47,8 @@ void divm(stack_t **stack, unsigned int line_number)
 /**
  * mul - multiplies the second top element of the stack
  *	 with the top element of the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void mul(stack_t **stack, unsigned int line_number)
 {

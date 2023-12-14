@@ -1,8 +1,9 @@
 #include "monty.h"
+
 /**
  * pall - prints all the values on the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void pall(stack_t **stack, unsigned int line_number)
 {
@@ -20,8 +21,8 @@ void pall(stack_t **stack, unsigned int line_number)
 
 /**
  * push - pushes an element to the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void push(stack_t **stack, unsigned int line_number)
 {
@@ -63,8 +64,8 @@ void push(stack_t **stack, unsigned int line_number)
 
 /**
  * pint - prints the value at the top of the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void pint(stack_t **stack, unsigned int line_number)
 {
@@ -79,8 +80,8 @@ void pint(stack_t **stack, unsigned int line_number)
 
 /**
 * pop - removes the top element of the stack
-* @stack: Double linked list
-* @line_number: File line exec
+* @stack: The Double linked list
+* @line_number: The File line exec
 */
 void pop(stack_t **stack, unsigned int line_number)
 {

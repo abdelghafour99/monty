@@ -23,8 +23,8 @@ void rotl(stack_t **stack, unsigned int line_number)
 
 /**
  * rotr - rotates the stack to the bottom
- * @stack: Double linked list
- * @line_number: File line execution
+ * @stack: The Double linked list
+ * @line_number: The File line execution
  */
 void rotr(stack_t **stack, unsigned int line_number)
 {

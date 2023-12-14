@@ -4,8 +4,8 @@
 /**
  * mod - computes the rest of the division of the second
  *	 top element of the stack by the top element of the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void mod(stack_t **stack, unsigned int line_number)
 {
@@ -28,8 +28,8 @@ void mod(stack_t **stack, unsigned int line_number)
 
 /**
  * pchar - prints the char at the top of the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void pchar(stack_t **stack, unsigned int line_number)
 {
@@ -51,8 +51,8 @@ void pchar(stack_t **stack, unsigned int line_number)
 
 /**
  * pstr - prints the string starting at the top of the stack
- * @stack: Double linked list
- * @line_number: File line exec
+ * @stack: The Double linked list
+ * @line_number: The File line exec
  */
 void pstr(stack_t **stack, unsigned int line_number)
 {
